@@ -489,13 +489,14 @@ body{
 }
 
 .projects-container img{
+    transform: scale(1.5) rotate(5deg);
     border-radius: 20px;
     filter: blur(2.3px);
 }
 
 .projects-img-div img:hover{
-    transform: scale(1.5) rotate(5deg);
-    transition: 1s;
+    transform: scale(1.1) rotate(0deg);
+    transition: 0.6s;
     filter: none;
 }
 
