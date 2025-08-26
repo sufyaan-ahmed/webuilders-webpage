@@ -320,8 +320,8 @@ body{
 }
 
 .service-container{
-    display: grid;
-    grid-template-columns: auto auto;
+    display: flex;
+    flex-wrap: wrap;
     height: 100vh;
     align-items: center;
     justify-content: center;   
@@ -473,6 +473,7 @@ body{
 .projects-div-2{
     align-items: center;
     display: flex;
+    flex-wrap: wrap;
     margin-left: 10vw;
 }
 
@@ -803,11 +804,12 @@ body{
 
 .news{
     width: 100%;
-    height: 100vh;
+    height: 110vh;
 }
 
 .news-div{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
     text-align: center;
@@ -838,10 +840,17 @@ body{
     margin: 0 auto;
 }
 
+.news-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 .news-div-2{
     width: 100%;
     height: 65vh;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
 }
@@ -852,7 +861,7 @@ body{
 
 .news-div-2-items{
     width: 23vw;
-    height: 63vh;
+    height: 70vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -958,6 +967,7 @@ body{
 .companies-div{
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
     align-items: center;
     height: 100%;
 }
