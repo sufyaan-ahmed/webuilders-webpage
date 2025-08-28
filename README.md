@@ -3,10 +3,8 @@ This is a front-end portfolio website created for a construction company. The pu
 
 At the time of building this project, I was mainly focused on front-end design. That’s why the website is non-responsive and works best on desktop screens. Responsiveness was not implemented since I was still learning about it.
 
-Features:
+<h1>Features:</h1>
 
 Simple and static front-end design.
-
 Sections for Company Profile, Services, Projects, and Contact Information.
-
 Designed to give a professional portfolio look for a construction company.
